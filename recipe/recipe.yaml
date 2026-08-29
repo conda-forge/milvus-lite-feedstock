@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.0"
+  version: "3.2.1"
 
 package:
   name: milvus-lite
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/milvus-lite/milvus_lite-${{ version }}.tar.gz
-  sha256: 2c35d0d046b1faae3402cde1fb73d65f51ee8c6aba65f54de1dda46f7bb18b9b
+  sha256: 4d988fe0a6bbdfc708046014ad69f4b140c43567ecafd8b6df300ad7d37210f3
 
 build:
   noarch: python
